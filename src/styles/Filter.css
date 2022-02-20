@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.BPIM{
+    width: 512px;
+    height: 51px;
+    margin: 37px 25px 27px 113px;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 3.5;
+    text-align: left;
+    color: #192f60;
+}
+  .menu{
+    width: 300px;
+    height: 900px;
+    margin: 27px 45px 8px 113px;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;
+  }
+  #sel{
+    height: 40px;
+    width: 240px;
+    font-size: 20px;
+  }
+  .inputs{
+    width: auto;
+    height: auto;
+    margin: 0px;
+  }
+  .food{
+    width: 0px;
+    height: 0px;
+    margin-top: -1000px;
+  }
+  img{
+    height: 120px;
+    width: 120px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  .BCC{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+  }
+  .F{
+    font-weight: bold;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+  }
+  .S{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .Item{
+    width: 700px;
+    height: 320px;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;   
+  }
+  .noData{
+      display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    width: 700px;
+    height: 320px;
+    margin-left: 450px;
+    margin-top: 100px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;   
+  }
+.pagination {
+  height: 25px;
+  width: 25px;
+  margin-left: 50%;
+  margin-top: 850px;
+}
+
+.pagination a {
+    
+    height: 25px;
+    width: 25px;
+    float: left;
+    padding: 1px 6px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin: 3px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;   
+    color: #192f60;
+    font-weight: 600;
+}
+
+  
+  .rest-address {
+    height: 23px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+
+
+@media only screen and (max-width: 600px ) {
+
+  .BPIM{
+    width: 512px;
+    height: 51px;
+    margin: 37px 0px 27px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 3.5;
+    text-align: left;
+    color: #192f60;
+}
+  .menu{
+    width: 300px;
+    height: 900px;
+    margin: 27px 45px 8px 113px;
+    padding: 17px 25px 31px 26px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;
+  }
+  .food{
+    width: 0px;
+    height: 0px;
+    margin-top: 0px;
+  }
+  .Item{
+    width: 550px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 100px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;   
+  }
+  .noData{
+      display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    width: 550px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 100px;
+    padding: 25px 32.6px 20px 35px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0,0,1);
+    background-color:#fff;   
+  }
+.pagination {
+  height: 25px;
+  width: 25px;
+  margin-left: 30%;
+  margin-top: 1200px;
+}
+
+}
